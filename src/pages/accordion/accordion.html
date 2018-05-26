@@ -1,0 +1,28 @@
+<ion-card (click)="showDetail()">
+  <ion-card-header no-padding>
+    <ion-list>
+      <ion-item>
+        <ion-icon name="bell-round" item-start [ngClass]="title['title'] == 'CRITICAL' ? 'critical' :
+        title['label'] == 'MAJOR' ? 'major' : 'warning'"></ion-icon>
+        <h2 style="font-size:16px;font-weight:bold">{{title['title']}}</h2>
+        <p>{{title['subtitle']}}</p>
+        <button item-end>
+          <ion-icon name="ios-arrow-forward" *ngIf="expandedCondition==true"></ion-icon>
+          <ion-icon name="ios-arrow-down" *ngIf="expandedCondition==false"></ion-icon>
+        </button>
+      </ion-item>
+    </ion-list>
+  </ion-card-header>
+  <ion-card-content #expand>
+    <ion-list *ngFor="let i of content">
+      <ion-item *ngFor="let prop of property">
+        <p>{{prop}} &nbsp;:&nbsp;&nbsp;{{i[prop]}}</p>
+      </ion-item>
+    </ion-list>
+    <ion-item *ngIf="buttons.length!=0">
+      <button round full *ngFor="let button of buttons" item-end ion-button (click)="outputAction(button['type'], button['value'])">
+        {{button['label']}}
+      </button>
+    </ion-item>
+  </ion-card-content>
+</ion-card>

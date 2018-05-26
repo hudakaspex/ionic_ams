@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>Site List</ion-title>
+    <ion-buttons icon-only end>
+      <button ion-button (click)="appLogout()">
+        <ion-icon name="ios-exit-outline" style="font-size:32px;"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item-group>
+      <button ion-item *ngFor="let i of siteList" (click)="mainPageRoot(i)">
+        <ion-icon name="pin" item-start [ngClass]="i.alarmLength != 0 ? 'bounce-animation':'defaultIconPin'"></ion-icon>
+        <h2>{{i['site'].label}}</h2>
+        <p style="font-size:12px;">{{i['site'].address}}</p>
+        <div item-end style="color:rgb(131, 20, 20)">
+          <sup>{{i.alarmLength}}</sup>
+          <ion-icon name="bell-line" style="font-size:30px;"></ion-icon>
+        </div>
+      </button>
+    </ion-item-group>
+  </ion-list>
+  <div class="txtCenter" *ngIf="siteList.length==0">
+    <ion-icon name="pin" style="font-size:70px;"></ion-icon>
+    <p style="font-size:18px;">No available site</p>
+  </div>
+</ion-content>

@@ -1,0 +1,20 @@
+page-login {
+    .scroll-content{
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        display: flex;
+        text-align: center;
+    }
+    p {
+        font-size: 80px;
+        font-family: 'Lobster13Regular', Helvetica, sans-serif;
+        font-weight: bold;
+        text-align: center;
+        text-shadow: rgba(0, 0, 0, 0.2) 3px 3px 3px;
+        color: aliceblue;
+        /*text stroke*/
+        -webkit-text-stroke: 2px rgba(78, 28, 28, 0.6);
+       }
+       
+}

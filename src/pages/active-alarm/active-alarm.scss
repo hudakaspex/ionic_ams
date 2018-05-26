@@ -1,0 +1,37 @@
+page-active-alarm {
+    .content{
+        background: color($colors, light);
+    }
+    .txtCenter{
+        position: absolute;
+        left:0;
+        top:0;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        font-size: 20px;
+        color: rgb(217, 217, 233);
+    }
+
+    .critical{
+      font-size:45px;
+      padding-top:10px;
+      color:#a1081d
+    }
+
+    .major{
+        font-size:45px;
+        padding-top:10px;
+        color:#35970e;
+    }
+
+    .warning{
+        font-size:45px;
+        padding-top:10px;
+        color:#dbce1a;
+    }
+
+}

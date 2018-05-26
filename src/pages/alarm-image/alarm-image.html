@@ -1,0 +1,15 @@
+<ion-header>
+    <ion-navbar color="primary">
+      <ion-buttons left>
+        <button ion-button icon-only (click)="backPage()">
+          <ion-icon name="arrow-back"></ion-icon>
+        </button>
+      </ion-buttons>
+      <ion-title>Alarm Image</ion-title>
+    </ion-navbar>
+  </ion-header>
+
+
+<ion-content padding>
+  <img style="height:250px;width:100%" [src]="containImage" [default]="'assets/imgs/none.jpg'">
+</ion-content>

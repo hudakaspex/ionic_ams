@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "581453902506",
+    "firebase_url": "https://ngx-emsv2.firebaseio.com",
+    "project_id": "ngx-emsv2",
+    "storage_bucket": "ngx-emsv2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:581453902506:android:de8d3bb784973e84",
+        "android_client_info": {
+          "package_name": "com.ams.starter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "581453902506-qrgh3mp075fgndi5u45j7ff2h92hp3ma.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "581453902506-qrgh3mp075fgndi5u45j7ff2h92hp3ma.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCA7RhcmcgmwGz7aKQg12L0WbmavIR-V4k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

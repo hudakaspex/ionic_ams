@@ -1,0 +1,28 @@
+<ion-content>
+  <div class="txtCenter" *ngIf="dataAlarm.length==0">
+    <ion-icon name="time-outline" style="font-size:70px;"></ion-icon>
+    <p style="font-size:18px;">No available history</p>
+  </div>
+  <ion-grid>
+    <ion-row>
+      <ion-col col-12>
+        <ion-item no-lines>
+          <ion-label>Filter with hours</ion-label>
+          <ion-select [(ngModel)]="startTimeAlarm" (ionChange)="selectedFilter(startTimeAlarm)">
+            <ion-option *ngFor="let option of optionSelect" [value]="option['value']" [selected]="option['selected']">
+              {{option['label']}}
+            </ion-option>
+          </ion-select>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <ion-scroll scrollY="true" style="width: 100%; height: 85%;">
+    <page-accordion *ngFor="let i of dataAlarm"
+    [title]="i['title']"
+    [content]="i['content']"
+    [buttons]="i['buttons']"
+    (action)="showModalImage($event)">
+    </page-accordion>
+  </ion-scroll>
+</ion-content>

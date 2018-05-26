@@ -1,0 +1,18 @@
+<ion-header no-border>
+  <ion-navbar color="primary">
+    <ion-title>
+      E M S
+    </ion-title>
+    <ion-buttons icon-only end>
+      <button ion-button (click)="appLogout()">
+        <ion-icon name="ios-exit-outline" style="font-size:32px;"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <super-tabs toolbarColor="light" indicatorColor="light" toolbarBackground="primary">
+    <super-tab *ngFor="let page of rootPage" [root]="page['page']" [title]="page['title']"></super-tab>
+  </super-tabs>
+</ion-content>

@@ -1,0 +1,25 @@
+<alert #alert></alert>
+<ion-content padding>
+  <p>E M S</p>
+  <ion-grid>
+    <ion-row>
+      <ion-col col-12>
+        <ion-list>
+          <div [formGroup]="form">
+            <ion-item>
+              <ion-label floating>Username</ion-label>
+              <ion-input type="text" formControlName="username"></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-label floating>Password</ion-label>
+              <ion-input type="password" formControlName="password"></ion-input>
+            </ion-item>
+            <div style="text-align:center;padding-top:40px;padding-left:14px;">
+              <button ion-button round full [disabled]="form.invalid" type="submit" (click)="onSubmit(form.value)">Login</button>
+            </div>
+          </div>
+        </ion-list>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

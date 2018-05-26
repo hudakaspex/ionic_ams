@@ -1,0 +1,442 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/satunol/AMS/platforms/android/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /home/satunol/AMS/platforms/android/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /home/satunol/AMS/platforms/android/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /home/satunol/AMS/platforms/android/app/src/main/AndroidManifest.xml:2:1-30:12
+MERGED from [com.google.firebase:firebase-core:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.0.aar/8dec28fe8d5dc1edaf565133cf272d76/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-messaging:17.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.0.0.aar/1d66162143e2057a34a535956dd13937/AndroidManifest.xml:17:1-37:12
+MERGED from [:CordovaLib] /home/satunol/AMS/platforms/android/CordovaLib/build/intermediates/manifests/full/debug/AndroidManifest.xml:20:1-27:12
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.0.aar/f516e688afd7d21dcb27dd992447f380/AndroidManifest.xml:17:1-34:12
+MERGED from [com.google.firebase:firebase-analytics:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.0.aar/5095ce789369ff3092495cd8b547922d/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.0.0.aar/146d4921218a27711f0bd58e4212a92a/AndroidManifest.xml:17:1-41:12
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/f99077df59b41fd3584e641be1b5c6d9/AndroidManifest.xml:17:1-65:12
+MERGED from [com.google.firebase:firebase-common:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/df16ec5351a37c5b9fdde46c0ae8b4a2/AndroidManifest.xml:2:1-16:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.0.aar/c6a7e88857227ef24b53727eec1ec5d4/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/satunol/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/fb620882a1bdfa6beef30221755f8eb2/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/satunol/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/cd63e2305c67661bf6a55fab2e1bd704/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-16.0.0.aar/0b3007bfdb9a31cbe7ae0539030d95f2/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /home/satunol/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/e13cb46a51ec787bdfcb6668036924dd/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /home/satunol/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/6795afe466e292fe836f8fbd5dbdbc5c/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/satunol/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/c959f8f1b21c3eb5abaf3a940f2fdeee/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/e4ec9038030eaf8857abc6dab75d214c/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/5775f9f53e33506193c4e9e32322d353/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/67a9168ff0b3db3df169eca043905aff/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/f1f0853cbe3414d2d9fcab27cc1f8c85/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/07c5051ec2c0696b8425a197504825c6/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/1b0409e7d95a21e8a11e892cca9bfd14/AndroidManifest.xml:17:1-31:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/5c51101f4154e4044eccdb4b9e4ea52f/AndroidManifest.xml:17:1-30:12
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.4] /home/satunol/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-15.0.4.aar/b0614748fe4d89716fc6d06c070c318f/AndroidManifest.xml:17:1-24:12
+INJECTED from /home/satunol/AMS/platforms/android/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /home/satunol/AMS/platforms/android/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /home/satunol/AMS/platforms/android/app/src/main/AndroidManifest.xml:2:1-30:12
+	package
+		ADDED from /home/satunol/AMS/platforms/android/app/src/main/AndroidManifest.xml:2:98-123
+		INJECTED from /home/satunol/AMS/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/satunol/AMS/platforms/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/satunol/AMS/platforms/android/app/src/main/AndroidManifest.xml:2:70-97
+		INJECTED from /home/satunol/AMS/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/satunol/AMS/platforms/android/app/src/main/AndroidManifest.xml
+	android:hardwareAccelerated
+		ADDED from /home/satunol/AMS/platforms/android/app/src/main/AndroidManifest.xml:2:11-45
+	xmlns:android
+		ADDED from /home/satunol/AMS/platforms/android/app/src/main/AndroidManifest.xml:2:124-182
+	android:versionCode
+		ADDED from /home/satunol/AMS/platforms/android/app/src/main/AndroidManifest.xml:2:46-69
+		INJECTED from /home/satunol/AMS/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/satunol/AMS/platforms/android/app/src/main/AndroidManifest.xml
+supports-screens
+ADDED from /home/satunol/AMS/platforms/android/app/src/main/AndroidManifest.xml:3:5-191
+	android:largeScreens
+		ADDED from /home/satunol/AMS/platforms/android/app/src/main/AndroidManifest.xml:3:49-76
+	android:smallScreens
+		ADDED from /home/satunol/AMS/platforms/android/app/src/main/AndroidManifest.xml:3:132-159
+	android:normalScreens
+		ADDED from /home/satunol/AMS/platforms/android/app/src/main/AndroidManifest.xml:3:77-105
+	android:xlargeScreens
+		ADDED from /home/satunol/AMS/platforms/android/app/src/main/AndroidManifest.xml:3:160-188
+	android:resizeable
+		ADDED from /home/satunol/AMS/platforms/android/app/src/main/AndroidManifest.xml:3:106-131
+	android:anyDensity
+		ADDED from /home/satunol/AMS/platforms/android/app/src/main/AndroidManifest.xml:3:23-48
+uses-permission#android.permission.INTERNET
+ADDED from /home/satunol/AMS/platforms/android/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.0.aar/f516e688afd7d21dcb27dd992447f380/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.0.aar/f516e688afd7d21dcb27dd992447f380/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.0.aar/5095ce789369ff3092495cd8b547922d/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.0.aar/5095ce789369ff3092495cd8b547922d/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.0.0.aar/146d4921218a27711f0bd58e4212a92a/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.0.0.aar/146d4921218a27711f0bd58e4212a92a/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/f99077df59b41fd3584e641be1b5c6d9/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/f99077df59b41fd3584e641be1b5c6d9/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /home/satunol/AMS/platforms/android/app/src/main/AndroidManifest.xml:4:22-64
+application
+ADDED from /home/satunol/AMS/platforms/android/app/src/main/AndroidManifest.xml:5:5-28:19
+MERGED from [com.google.firebase:firebase-core:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.0.aar/8dec28fe8d5dc1edaf565133cf272d76/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.0.aar/8dec28fe8d5dc1edaf565133cf272d76/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-messaging:17.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.0.0.aar/1d66162143e2057a34a535956dd13937/AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:17.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.0.0.aar/1d66162143e2057a34a535956dd13937/AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.0.aar/f516e688afd7d21dcb27dd992447f380/AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.0.aar/f516e688afd7d21dcb27dd992447f380/AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.0.aar/5095ce789369ff3092495cd8b547922d/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.0.aar/5095ce789369ff3092495cd8b547922d/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.0.0.aar/146d4921218a27711f0bd58e4212a92a/AndroidManifest.xml:28:5-39:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.0.0.aar/146d4921218a27711f0bd58e4212a92a/AndroidManifest.xml:28:5-39:19
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/f99077df59b41fd3584e641be1b5c6d9/AndroidManifest.xml:34:5-63:19
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/f99077df59b41fd3584e641be1b5c6d9/AndroidManifest.xml:34:5-63:19
+MERGED from [com.google.firebase:firebase-common:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/df16ec5351a37c5b9fdde46c0ae8b4a2/AndroidManifest.xml:8:5-14:19
+MERGED from [com.google.firebase:firebase-common:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/df16ec5351a37c5b9fdde46c0ae8b4a2/AndroidManifest.xml:8:5-14:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.0.aar/c6a7e88857227ef24b53727eec1ec5d4/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.0.aar/c6a7e88857227ef24b53727eec1ec5d4/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/satunol/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/fb620882a1bdfa6beef30221755f8eb2/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/satunol/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/fb620882a1bdfa6beef30221755f8eb2/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/satunol/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/cd63e2305c67661bf6a55fab2e1bd704/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/satunol/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/cd63e2305c67661bf6a55fab2e1bd704/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-16.0.0.aar/0b3007bfdb9a31cbe7ae0539030d95f2/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-16.0.0.aar/0b3007bfdb9a31cbe7ae0539030d95f2/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /home/satunol/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/e13cb46a51ec787bdfcb6668036924dd/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /home/satunol/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/e13cb46a51ec787bdfcb6668036924dd/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /home/satunol/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/6795afe466e292fe836f8fbd5dbdbc5c/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /home/satunol/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/6795afe466e292fe836f8fbd5dbdbc5c/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/satunol/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/c959f8f1b21c3eb5abaf3a940f2fdeee/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/satunol/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/c959f8f1b21c3eb5abaf3a940f2fdeee/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/e4ec9038030eaf8857abc6dab75d214c/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/e4ec9038030eaf8857abc6dab75d214c/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/5775f9f53e33506193c4e9e32322d353/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/5775f9f53e33506193c4e9e32322d353/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/67a9168ff0b3db3df169eca043905aff/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/67a9168ff0b3db3df169eca043905aff/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/f1f0853cbe3414d2d9fcab27cc1f8c85/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/f1f0853cbe3414d2d9fcab27cc1f8c85/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/07c5051ec2c0696b8425a197504825c6/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/07c5051ec2c0696b8425a197504825c6/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/1b0409e7d95a21e8a11e892cca9bfd14/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/1b0409e7d95a21e8a11e892cca9bfd14/AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/5c51101f4154e4044eccdb4b9e4ea52f/AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/5c51101f4154e4044eccdb4b9e4ea52f/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.4] /home/satunol/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-15.0.4.aar/b0614748fe4d89716fc6d06c070c318f/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.4] /home/satunol/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-15.0.4.aar/b0614748fe4d89716fc6d06c070c318f/AndroidManifest.xml:22:5-20
+	android:supportsRtl
+		ADDED from /home/satunol/AMS/platforms/android/app/src/main/AndroidManifest.xml:5:114-140
+	android:label
+		ADDED from /home/satunol/AMS/platforms/android/app/src/main/AndroidManifest.xml:5:81-113
+	android:hardwareAccelerated
+		ADDED from /home/satunol/AMS/platforms/android/app/src/main/AndroidManifest.xml:5:18-52
+	android:icon
+		ADDED from /home/satunol/AMS/platforms/android/app/src/main/AndroidManifest.xml:5:53-80
+activity#com.ams.starter.MainActivity
+ADDED from /home/satunol/AMS/platforms/android/app/src/main/AndroidManifest.xml:6:9-11:20
+	android:label
+		ADDED from /home/satunol/AMS/platforms/android/app/src/main/AndroidManifest.xml:6:97-134
+	android:launchMode
+		ADDED from /home/satunol/AMS/platforms/android/app/src/main/AndroidManifest.xml:6:135-165
+	android:windowSoftInputMode
+		ADDED from /home/satunol/AMS/platforms/android/app/src/main/AndroidManifest.xml:6:257-299
+	android:configChanges
+		ADDED from /home/satunol/AMS/platforms/android/app/src/main/AndroidManifest.xml:6:19-96
+	android:theme
+		ADDED from /home/satunol/AMS/platforms/android/app/src/main/AndroidManifest.xml:6:194-256
+	android:name
+		ADDED from /home/satunol/AMS/platforms/android/app/src/main/AndroidManifest.xml:6:166-193
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/satunol/AMS/platforms/android/app/src/main/AndroidManifest.xml:7:13-10:29
+	android:label
+		ADDED from /home/satunol/AMS/platforms/android/app/src/main/AndroidManifest.xml:7:28-65
+action#android.intent.action.MAIN
+ADDED from /home/satunol/AMS/platforms/android/app/src/main/AndroidManifest.xml:8:17-69
+	android:name
+		ADDED from /home/satunol/AMS/platforms/android/app/src/main/AndroidManifest.xml:8:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/satunol/AMS/platforms/android/app/src/main/AndroidManifest.xml:9:17-77
+	android:name
+		ADDED from /home/satunol/AMS/platforms/android/app/src/main/AndroidManifest.xml:9:27-74
+activity#com.gae.scaffolder.plugin.FCMPluginActivity
+ADDED from /home/satunol/AMS/platforms/android/app/src/main/AndroidManifest.xml:12:9-17:20
+	android:launchMode
+		ADDED from /home/satunol/AMS/platforms/android/app/src/main/AndroidManifest.xml:12:43-73
+	android:exported
+		ADDED from /home/satunol/AMS/platforms/android/app/src/main/AndroidManifest.xml:12:19-42
+	android:name
+		ADDED from /home/satunol/AMS/platforms/android/app/src/main/AndroidManifest.xml:12:74-132
+intent-filter#FCM_PLUGIN_ACTIVITY+android.intent.category.DEFAULT
+ADDED from /home/satunol/AMS/platforms/android/app/src/main/AndroidManifest.xml:13:13-16:29
+action#FCM_PLUGIN_ACTIVITY
+ADDED from /home/satunol/AMS/platforms/android/app/src/main/AndroidManifest.xml:14:17-62
+	android:name
+		ADDED from /home/satunol/AMS/platforms/android/app/src/main/AndroidManifest.xml:14:25-59
+category#android.intent.category.DEFAULT
+ADDED from /home/satunol/AMS/platforms/android/app/src/main/AndroidManifest.xml:15:17-76
+	android:name
+		ADDED from /home/satunol/AMS/platforms/android/app/src/main/AndroidManifest.xml:15:27-73
+service#com.gae.scaffolder.plugin.MyFirebaseMessagingService
+ADDED from /home/satunol/AMS/platforms/android/app/src/main/AndroidManifest.xml:18:9-22:19
+	android:name
+		ADDED from /home/satunol/AMS/platforms/android/app/src/main/AndroidManifest.xml:18:18-85
+intent-filter#com.google.firebase.MESSAGING_EVENT
+ADDED from /home/satunol/AMS/platforms/android/app/src/main/AndroidManifest.xml:19:13-21:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from /home/satunol/AMS/platforms/android/app/src/main/AndroidManifest.xml:20:17-78
+	android:name
+		ADDED from /home/satunol/AMS/platforms/android/app/src/main/AndroidManifest.xml:20:25-75
+service#com.gae.scaffolder.plugin.MyFirebaseInstanceIDService
+ADDED from /home/satunol/AMS/platforms/android/app/src/main/AndroidManifest.xml:23:9-27:19
+	android:name
+		ADDED from /home/satunol/AMS/platforms/android/app/src/main/AndroidManifest.xml:23:18-86
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from /home/satunol/AMS/platforms/android/app/src/main/AndroidManifest.xml:24:13-26:29
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from /home/satunol/AMS/platforms/android/app/src/main/AndroidManifest.xml:25:17-80
+	android:name
+		ADDED from /home/satunol/AMS/platforms/android/app/src/main/AndroidManifest.xml:25:25-77
+uses-sdk
+ADDED from /home/satunol/AMS/platforms/android/app/src/main/AndroidManifest.xml:29:5-74
+MERGED from [com.google.firebase:firebase-core:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.0.aar/8dec28fe8d5dc1edaf565133cf272d76/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.0.aar/8dec28fe8d5dc1edaf565133cf272d76/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-messaging:17.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.0.0.aar/1d66162143e2057a34a535956dd13937/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:17.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.0.0.aar/1d66162143e2057a34a535956dd13937/AndroidManifest.xml:20:5-44
+MERGED from [:CordovaLib] /home/satunol/AMS/platforms/android/CordovaLib/build/intermediates/manifests/full/debug/AndroidManifest.xml:25:5-44
+MERGED from [:CordovaLib] /home/satunol/AMS/platforms/android/CordovaLib/build/intermediates/manifests/full/debug/AndroidManifest.xml:25:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.0.aar/f516e688afd7d21dcb27dd992447f380/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.0.aar/f516e688afd7d21dcb27dd992447f380/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.0.aar/5095ce789369ff3092495cd8b547922d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.0.aar/5095ce789369ff3092495cd8b547922d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.0.0.aar/146d4921218a27711f0bd58e4212a92a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.0.0.aar/146d4921218a27711f0bd58e4212a92a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/f99077df59b41fd3584e641be1b5c6d9/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/f99077df59b41fd3584e641be1b5c6d9/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/df16ec5351a37c5b9fdde46c0ae8b4a2/AndroidManifest.xml:5:5-6:37
+MERGED from [com.google.firebase:firebase-common:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/df16ec5351a37c5b9fdde46c0ae8b4a2/AndroidManifest.xml:5:5-6:37
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.0.aar/c6a7e88857227ef24b53727eec1ec5d4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.0.aar/c6a7e88857227ef24b53727eec1ec5d4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/satunol/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/fb620882a1bdfa6beef30221755f8eb2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/satunol/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/fb620882a1bdfa6beef30221755f8eb2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/satunol/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/cd63e2305c67661bf6a55fab2e1bd704/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/satunol/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/cd63e2305c67661bf6a55fab2e1bd704/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-16.0.0.aar/0b3007bfdb9a31cbe7ae0539030d95f2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-16.0.0.aar/0b3007bfdb9a31cbe7ae0539030d95f2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /home/satunol/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/e13cb46a51ec787bdfcb6668036924dd/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /home/satunol/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/e13cb46a51ec787bdfcb6668036924dd/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /home/satunol/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/6795afe466e292fe836f8fbd5dbdbc5c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /home/satunol/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/6795afe466e292fe836f8fbd5dbdbc5c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/satunol/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/c959f8f1b21c3eb5abaf3a940f2fdeee/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/satunol/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/c959f8f1b21c3eb5abaf3a940f2fdeee/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/e4ec9038030eaf8857abc6dab75d214c/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/e4ec9038030eaf8857abc6dab75d214c/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/5775f9f53e33506193c4e9e32322d353/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/5775f9f53e33506193c4e9e32322d353/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/67a9168ff0b3db3df169eca043905aff/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/67a9168ff0b3db3df169eca043905aff/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/f1f0853cbe3414d2d9fcab27cc1f8c85/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/f1f0853cbe3414d2d9fcab27cc1f8c85/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/07c5051ec2c0696b8425a197504825c6/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/07c5051ec2c0696b8425a197504825c6/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/1b0409e7d95a21e8a11e892cca9bfd14/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/1b0409e7d95a21e8a11e892cca9bfd14/AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/5c51101f4154e4044eccdb4b9e4ea52f/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/5c51101f4154e4044eccdb4b9e4ea52f/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.4] /home/satunol/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-15.0.4.aar/b0614748fe4d89716fc6d06c070c318f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.4] /home/satunol/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-15.0.4.aar/b0614748fe4d89716fc6d06c070c318f/AndroidManifest.xml:20:5-44
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:26.1.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/e4ec9038030eaf8857abc6dab75d214c/AndroidManifest.xml:23:9-51
+	android:targetSdkVersion
+		ADDED from /home/satunol/AMS/platforms/android/app/src/main/AndroidManifest.xml:29:42-71
+	android:minSdkVersion
+		ADDED from /home/satunol/AMS/platforms/android/app/src/main/AndroidManifest.xml:29:15-41
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:17.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.0.0.aar/1d66162143e2057a34a535956dd13937/AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:17.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.0.0.aar/1d66162143e2057a34a535956dd13937/AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:17.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.0.0.aar/1d66162143e2057a34a535956dd13937/AndroidManifest.xml:29:13-82
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.0.aar/f516e688afd7d21dcb27dd992447f380/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.0.aar/5095ce789369ff3092495cd8b547922d/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.0.aar/5095ce789369ff3092495cd8b547922d/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.0.0.aar/146d4921218a27711f0bd58e4212a92a/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.0.0.aar/146d4921218a27711f0bd58e4212a92a/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/f99077df59b41fd3584e641be1b5c6d9/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/f99077df59b41fd3584e641be1b5c6d9/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.0.aar/f516e688afd7d21dcb27dd992447f380/AndroidManifest.xml:23:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.0.aar/f516e688afd7d21dcb27dd992447f380/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.0.aar/5095ce789369ff3092495cd8b547922d/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.0.aar/5095ce789369ff3092495cd8b547922d/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.0.0.aar/146d4921218a27711f0bd58e4212a92a/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.0.0.aar/146d4921218a27711f0bd58e4212a92a/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/f99077df59b41fd3584e641be1b5c6d9/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/f99077df59b41fd3584e641be1b5c6d9/AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.0.aar/f516e688afd7d21dcb27dd992447f380/AndroidManifest.xml:24:22-65
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.0.aar/f516e688afd7d21dcb27dd992447f380/AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/f99077df59b41fd3584e641be1b5c6d9/AndroidManifest.xml:35:9-39:19
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/f99077df59b41fd3584e641be1b5c6d9/AndroidManifest.xml:35:9-39:19
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.0.aar/f516e688afd7d21dcb27dd992447f380/AndroidManifest.xml:27:18-89
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.0.aar/f516e688afd7d21dcb27dd992447f380/AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.0.aar/f516e688afd7d21dcb27dd992447f380/AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.0.aar/f516e688afd7d21dcb27dd992447f380/AndroidManifest.xml:29:17-139
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.firebase:firebase-analytics:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.0.aar/5095ce789369ff3092495cd8b547922d/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.0.0.aar/146d4921218a27711f0bd58e4212a92a/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.0.0.aar/146d4921218a27711f0bd58e4212a92a/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.0.aar/5095ce789369ff3092495cd8b547922d/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.0.aar/5095ce789369ff3092495cd8b547922d/AndroidManifest.xml:29:9-33:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.0.0.aar/146d4921218a27711f0bd58e4212a92a/AndroidManifest.xml:29:9-33:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.0.0.aar/146d4921218a27711f0bd58e4212a92a/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.0.aar/5095ce789369ff3092495cd8b547922d/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.0.aar/5095ce789369ff3092495cd8b547922d/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.0.aar/5095ce789369ff3092495cd8b547922d/AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.0.aar/5095ce789369ff3092495cd8b547922d/AndroidManifest.xml:34:9-42:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.0.aar/5095ce789369ff3092495cd8b547922d/AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.0.aar/5095ce789369ff3092495cd8b547922d/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.0.aar/5095ce789369ff3092495cd8b547922d/AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.0.aar/5095ce789369ff3092495cd8b547922d/AndroidManifest.xml:35:13-100
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.0.aar/5095ce789369ff3092495cd8b547922d/AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.0.aar/5095ce789369ff3092495cd8b547922d/AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.0.aar/5095ce789369ff3092495cd8b547922d/AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.0.aar/5095ce789369ff3092495cd8b547922d/AndroidManifest.xml:44:9-47:40
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.0.0.aar/146d4921218a27711f0bd58e4212a92a/AndroidManifest.xml:35:9-38:40
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.0.0.aar/146d4921218a27711f0bd58e4212a92a/AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.0.aar/5095ce789369ff3092495cd8b547922d/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.0.aar/5095ce789369ff3092495cd8b547922d/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.0.aar/5095ce789369ff3092495cd8b547922d/AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.0.aar/5095ce789369ff3092495cd8b547922d/AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.0.aar/5095ce789369ff3092495cd8b547922d/AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.0.aar/5095ce789369ff3092495cd8b547922d/AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.0.aar/5095ce789369ff3092495cd8b547922d/AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.0.aar/5095ce789369ff3092495cd8b547922d/AndroidManifest.xml:49:13-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/f99077df59b41fd3584e641be1b5c6d9/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/f99077df59b41fd3584e641be1b5c6d9/AndroidManifest.xml:26:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/f99077df59b41fd3584e641be1b5c6d9/AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/f99077df59b41fd3584e641be1b5c6d9/AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/f99077df59b41fd3584e641be1b5c6d9/AndroidManifest.xml:29:9-63
+permission#com.ams.starter.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/f99077df59b41fd3584e641be1b5c6d9/AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/f99077df59b41fd3584e641be1b5c6d9/AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/f99077df59b41fd3584e641be1b5c6d9/AndroidManifest.xml:29:9-63
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/f99077df59b41fd3584e641be1b5c6d9/AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/f99077df59b41fd3584e641be1b5c6d9/AndroidManifest.xml:32:22-76
+uses-permission#com.ams.starter.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/f99077df59b41fd3584e641be1b5c6d9/AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/f99077df59b41fd3584e641be1b5c6d9/AndroidManifest.xml:32:22-76
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/f99077df59b41fd3584e641be1b5c6d9/AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/f99077df59b41fd3584e641be1b5c6d9/AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/f99077df59b41fd3584e641be1b5c6d9/AndroidManifest.xml:37:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/f99077df59b41fd3584e641be1b5c6d9/AndroidManifest.xml:41:9-50:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/f99077df59b41fd3584e641be1b5c6d9/AndroidManifest.xml:43:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/f99077df59b41fd3584e641be1b5c6d9/AndroidManifest.xml:44:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/f99077df59b41fd3584e641be1b5c6d9/AndroidManifest.xml:42:13-78
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/f99077df59b41fd3584e641be1b5c6d9/AndroidManifest.xml:45:13-49:29
+intent-filter#com.ams.starter+com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/f99077df59b41fd3584e641be1b5c6d9/AndroidManifest.xml:45:13-49:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/f99077df59b41fd3584e641be1b5c6d9/AndroidManifest.xml:46:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/f99077df59b41fd3584e641be1b5c6d9/AndroidManifest.xml:46:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/f99077df59b41fd3584e641be1b5c6d9/AndroidManifest.xml:48:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/f99077df59b41fd3584e641be1b5c6d9/AndroidManifest.xml:48:27-58
+category#com.ams.starter
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/f99077df59b41fd3584e641be1b5c6d9/AndroidManifest.xml:48:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/f99077df59b41fd3584e641be1b5c6d9/AndroidManifest.xml:48:27-58
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/f99077df59b41fd3584e641be1b5c6d9/AndroidManifest.xml:56:9-62:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/f99077df59b41fd3584e641be1b5c6d9/AndroidManifest.xml:58:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/f99077df59b41fd3584e641be1b5c6d9/AndroidManifest.xml:57:13-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/df16ec5351a37c5b9fdde46c0ae8b4a2/AndroidManifest.xml:9:9-13:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/df16ec5351a37c5b9fdde46c0ae8b4a2/AndroidManifest.xml:11:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/df16ec5351a37c5b9fdde46c0ae8b4a2/AndroidManifest.xml:12:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/df16ec5351a37c5b9fdde46c0ae8b4a2/AndroidManifest.xml:13:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/df16ec5351a37c5b9fdde46c0ae8b4a2/AndroidManifest.xml:10:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:15.0.1] /home/satunol/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/fb620882a1bdfa6beef30221755f8eb2/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /home/satunol/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/fb620882a1bdfa6beef30221755f8eb2/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /home/satunol/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/fb620882a1bdfa6beef30221755f8eb2/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /home/satunol/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/fb620882a1bdfa6beef30221755f8eb2/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:15.0.1] /home/satunol/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/c959f8f1b21c3eb5abaf3a940f2fdeee/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] /home/satunol/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/c959f8f1b21c3eb5abaf3a940f2fdeee/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] /home/satunol/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/c959f8f1b21c3eb5abaf3a940f2fdeee/AndroidManifest.xml:24:13-58
+meta-data#android.support.VERSION
+ADDED from [com.android.support:support-v4:26.1.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/e4ec9038030eaf8857abc6dab75d214c/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/5775f9f53e33506193c4e9e32322d353/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/5775f9f53e33506193c4e9e32322d353/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/67a9168ff0b3db3df169eca043905aff/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/67a9168ff0b3db3df169eca043905aff/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/f1f0853cbe3414d2d9fcab27cc1f8c85/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/f1f0853cbe3414d2d9fcab27cc1f8c85/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/07c5051ec2c0696b8425a197504825c6/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/07c5051ec2c0696b8425a197504825c6/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/1b0409e7d95a21e8a11e892cca9bfd14/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/1b0409e7d95a21e8a11e892cca9bfd14/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:support-v4:26.1.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/e4ec9038030eaf8857abc6dab75d214c/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:support-v4:26.1.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/e4ec9038030eaf8857abc6dab75d214c/AndroidManifest.xml:27:13-51
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/5c51101f4154e4044eccdb4b9e4ea52f/AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/5c51101f4154e4044eccdb4b9e4ea52f/AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/satunol/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/5c51101f4154e4044eccdb4b9e4ea52f/AndroidManifest.xml:26:13-58
